@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(j1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: contrast(120%) brightness(110%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header .content h1 {
+    font-size: 36px;
+    color: red; 
+    text-align: left;
+    margin-bottom: 20px;
+}
+.content{
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-size: 1.2rem;
+    
+
+}
+header .content p {
+    font-size: 60px;
+    color: #ff7200;
+    font-family: Arial;
+    text-align: left;
+}
+header .logo{
+    font-size: 35px;
+    color: blue;
+}
+.li{
+    font-size: 35px;
+    text-decoration: solid #ff7200;
+      
+}
+.li a{
+    color: red;
+    border: #ff7200;
+}
+.cn{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: help;
+    padding-left: 30px;
+    transition: margin-right 2s, color 1s;
+    
+}
+.cn:hover{
+   background-color: white;
+}
+.b{
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    background-size: contain;
+    font-size: 10px;
+    border-radius: 20px;
+    cursor: grab;
+    padding-left: 30px;
+    transition: margin-right 4s, color 1s;
+}
+.b:hover{
+    background-color: white;
+}
+.content{
+    font-size: 50px;
+    color: cornsilk;
+}
+.con{
+
+        text-align: justify; /* Center-align the images horizontally */
+    }
+    
+    .con img {
+        display: inline-block; /* Display images as inline-block elements */
+        max-width: 25em; /* Ensure images don't exceed their container's width */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 10px; /* Add some horizontal spacing between images */
+    }
+    
+    
+
+
+
+
+
